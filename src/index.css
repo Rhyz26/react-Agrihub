@@ -11,9 +11,9 @@
   box-sizing: border-box;
 }
 
-
+/* bg-[#7CB342] */
 .header {
-  @apply flex bg-[#7CB342] h-16 border-b-4 border-b-red-700 mt-8
+  @apply flex bg-[#00008B] h-16 border-b-4 border-b-red-700
 }
 
 
