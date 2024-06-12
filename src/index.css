@@ -10,3 +10,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+.header {
+  @apply flex bg-[#7CB342] h-16 border-b-4 border-b-red-700 mt-8
+}
+
+
+ul {
+
+  @apply flex justify-start gap-6 pt-4 ml-8
+}
+
+.header {
+  font-family: "Oswald", sans-serif;
+}
