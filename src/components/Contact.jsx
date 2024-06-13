@@ -1,9 +1,8 @@
 import React from 'react'
 import { BackgroundImage, Center, Text, Box } from '@mantine/core';
 import '@mantine/core/styles.css';
-
 import { MantineProvider } from '@mantine/core';
-
+import { Input, TextInput } from '@mantine/core';
 function Contact () {
   return (
 
@@ -31,6 +30,19 @@ function Contact () {
       <h1 className='text-center mt-3'>CONTACT AGRIHUB</h1>
       <p className='text-center mt-3'>We'd Love to Hear From You</p>
       <p className='text-center mt-3 mx-auto max-w-[80%]'>We're here to help and answer any question you might have. Whether you're curious about features, a free trial, or even press-we're ready to answer any and all questions. We look forward to hearing from you</p>
+      <div className=''>
+
+      <p>Email:</p>
+      <p>njagala.raymond@gmail.com</p>
+      <p>Contact us</p>
+      <p>+256703897243</p>
+      <p>Address</p>
+      <p>Makerere, Kampala</p>
+      </div>
+      
+
+        
+     
     </div>
   )
 }
