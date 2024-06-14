@@ -26,3 +26,10 @@ ul {
 .header {
   font-family: "Oswald", sans-serif;
 }
+
+/* MapComponent.css */
+.leaflet-container {
+  height: 400px;
+  /* width: 100%; */
+  border-radius: 10px;
+}
