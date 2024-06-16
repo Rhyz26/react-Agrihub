@@ -25,29 +25,30 @@ function Contact () {
       >
         <Center p="md">
           <Text c="white">
-            <h1 className='text-center text-4xl font-bold text-white pt-48 ml-40'>GET IN TOUCH <p>WITH US!</p></h1>
+            <h1 className='text-5xl font-bold text-white pt-20 mr-16 mx-auto max-w-[40%]'>GET IN TOUCH <p>WITH US!</p></h1>
+      <p className='mx-auto max-w-[40%] mt-3 mr-16 font-bold text-3xl'>We'd Love to Hear From You!</p>
+      {/* mx-auto max-w-[50%] */}
+      <p className=' mt-3  mb-8 mx-auto max-w-[40%] mr-16 font-bold text-2xl'>We're here to help and answer any question you might have. Whether you're curious about features, a free trial, or even press-we're ready to answer any and all questions. We look forward to hearing from you!</p>
           </Text>
         </Center>
       </BackgroundImage>
     </Box>
       {/* <h1 className='text-center text-2xl font-bold text-[#A0522D]'>GET IN TOUCH</h1> */}
-      <h1 className='text-center mt-3'>GOT A QUESTION?</h1>
-      <h1 className='text-center mt-3'>CONTACT AGRIHUB</h1>
-      <p className='text-center mt-3'>We'd Love to Hear From You</p>
-      <p className='text-center mt-3 mx-auto max-w-[80%] mb-8'>We're here to help and answer any question you might have. Whether you're curious about features, a free trial, or even press-we're ready to answer any and all questions. We look forward to hearing from you</p>
+      {/* <h1 className='text-center mt-3'>GOT A QUESTION?</h1> */}
+      {/* <h1 className='text-center mt-3'>CONTACT AGRIHUB</h1> */}
       <div className='ml-8 mb-8'>
         
       
       
       <div className='flex justify-center items-center pt-16 pb-16 gap-36'>
         
-        <div className='flex flex-col'>
+        <div className='flex flex-col text-xl'>
       <h1 className='text-[#2E8B57] text-4xl font-bold mb-4'>Contact us at:</h1>
-          <p>Email:</p>
+          <p className='font-bold text-[#2E8B57] pb-2'>Email:</p>
           <p>njagala.raymond@gmail.com</p>
-          <p>Contact us</p>
+          <p className='font-bold text-[#2E8B57] pb-2 pt-2'>Phone No:</p>
           <p>+256703897243</p>
-          <p>Address</p>
+          <p className='font-bold text-[#2E8B57] pb-2 pt-2'>Address:</p>
           <p className='mb-4'>Makerere, Kampala</p>
           
           
