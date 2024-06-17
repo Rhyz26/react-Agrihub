@@ -8,6 +8,7 @@ import { Textarea } from '@mantine/core';
 import { Button } from '@mantine/core';
 import MapComponent from '../MapComponent';
 
+
 function Contact () {
   const icon = <IconAt style={{ width: rem(16), height: rem(16) }} />;
   return (
@@ -46,9 +47,9 @@ function Contact () {
       <h1 className='text-[#2E8B57] text-4xl font-bold mb-4'>Contact us at:</h1>
           <p className='font-bold text-[#2E8B57] pb-2'>Email:</p>
           <p>njagala.raymond@gmail.com</p>
-          <p className='font-bold text-[#2E8B57] pb-2 pt-2'>Phone No:</p>
-          <p>+256703897243</p>
-          <p className='font-bold text-[#2E8B57] pb-2 pt-2'>Address:</p>
+          <p className='font-bold text-[#2E8B57] pb-2 pt-6'>Phone No:</p>
+          <p>+256703897243 / +256782924108</p>
+          <p className='font-bold text-[#2E8B57] pb-2 pt-6'>Address:</p>
           <p className='mb-4'>Makerere, Kampala</p>
           
           
