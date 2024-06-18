@@ -26,31 +26,30 @@ function About () {
         </MantineProvider>
 
 
-<div className='bg-[#F5F5DC] pb-4'>
-  
-  <h1 className='text-center pb-3 pt-4 text-4xl text-[#8B4513] font-bold'>Our Vision</h1>
-  <p className='mx-auto max-w-[40%] text-center text-2xl'>We envision a world where agriculture is sustainable, efficient, and accessible to all. Our goal is to be a leading force in transforming the agricultural landscape through innovation and collaboration.
-
-
-  <h1 className='text-center pb-3 pt-3 text-4xl text-[#8B4513] font-bold'>Our Mission</h1>
-  <p className='mx-auto max-w-[90%] text-center text-2xl'>Our mission at AgriHub is to empower farmers with the tools and resources they need to thrive in a competitive market. We strive to enhance agricultural productivity and ensure that high-quality produce reaches consumers efficiently and affordably.</p>
+<div className='bg-[#F5F5DC] pb-16'>
   
   
-  </p>
+    <div className='mb-11'>
+      <h1 className='text-center pb-4 pt-16 text-4xl text-[#8B4513] font-bold'>Our Vision</h1>
+      
+      <p className='mx-auto max-w-[40%] text-center text-2xl '>We envision a world where agriculture is sustainable, efficient, and accessible to all. Our goal is to be a leading force in transforming the agricultural landscape through innovation and collaboration.</p>
+    </div>
+
+
+
+  <h1 className='text-center pb-4 pt-16 text-4xl text-[#8B4513] font-bold border-t-4 border-[#8B4513] w-[10%] mx-auto'> Mission</h1>
+  <p className='mx-auto max-w-[40%] text-center text-2xl  mb-11'>Our mission at AgriHub is to empower farmers with the tools and resources they need to thrive in a competitive market. We strive to enhance agricultural productivity and ensure that high-quality produce reaches consumers efficiently and affordably.</p>
   
-  <h1 className='text-center pb-20 pt-12 text-4xl text-[#8B4513] font-bold'>Our Values</h1>
-  {/* <h1 className='text-center text-2xl'>At AgriHub, we are guided by a set of core values:</h1>
-  <p className='text-center text-2xl'>Sustainability: We are committed to promoting sustainable agricultural practices.</p>
-  <p className='text-center text-2xl'>Innovation: We continuously seek innovative solutions to address agricultural challenges.</p>
-  <p className='text-center text-2xl'>Community: We believe in supporting and uplifting the communities we serve.
-  </p> */}
-
-
+  
+  
+  
+  <h1 className='text-center pb-20 pt-16 text-4xl text-[#8B4513] font-bold border-t-4 border-[#8B4513] w-[10%] mx-auto'>Values</h1>
+ 
 <div className='flex mx-auto max-w-[90%] gap-2'>
   <div className='flex flex-col items-center'>
     
       <img src="https://cdn-icons-png.flaticon.com/512/901/901049.png" width={100}/>
-      <p className='text-2xl pt-6 pb-4 font-bold text-[#8B4513] '>Innovation</p>
+      <p className='text-2xl pt-2 pb-2 font-bold text-[#8B4513] '>Innovation</p>
       <p className='text-center text-2xl'> We continuously seek innovative solutions to address agricultural challenges. </p>
   </div>
   
@@ -63,13 +62,13 @@ function About () {
   
     <div className='flex flex-col items-center'>
       <img src="https://t4.ftcdn.net/jpg/02/42/42/53/360_F_242425396_LEK8SCyDZ76C5g8Ou0sDzl4afXcROoSa.jpg " width={100}/>
-      <p className='text-2xl pt-6 pb-2 font-bold text-[#8B4513] '>Excellence</p>
+      <p className='text-2xl pt-3 pb-2 font-bold text-[#8B4513] '>Excellence</p>
       <p className='text-center text-2xl'>Following the highest quality standards and being commited to delivering the best to all stakeholders</p>
     </div>
   
     <div className='flex flex-col items-center'>
       <img src="https://static.thenounproject.com/png/3659714-200.png" width={100}/>
-      <p className='text-2xl pt-6 pb-2 font-bold text-[#8B4513] '>Community</p>
+      <p className='text-2xl pt-3 pb-2 font-bold text-[#8B4513] '>Community</p>
       <p className='text-center text-2xl'>We believe in supporting and uplifting the communities we serve.</p>
     </div>
   
