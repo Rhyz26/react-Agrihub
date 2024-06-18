@@ -20,5 +20,5 @@ npm install
 
 
 ### Deployment
-After changes are merged, the code in the main branch is deployed to vercel to create a test deployment link for the project, The deployment link is [Agrihub](https://react-agrihub.vercel.app/)
+After changes are merged, the code in the main branch is deployed to vercel to create a deployment link for the project, The deployment link is [Agrihub](https://react-agrihub.vercel.app/)
 
