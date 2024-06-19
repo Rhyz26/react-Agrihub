@@ -34,12 +34,10 @@ function Contact () {
         </Center>
       </BackgroundImage>
     </Box>
-      {/* <h1 className='text-center text-2xl font-bold text-[#A0522D]'>GET IN TOUCH</h1> */}
-      {/* <h1 className='text-center mt-3'>GOT A QUESTION?</h1> */}
-      {/* <h1 className='text-center mt-3'>CONTACT AGRIHUB</h1> */}
+      
       <div className='ml-8 mb-8'>
         
-      {/* text-[#2E8B57] */}
+     
       
       <div className='flex justify-center items-center pt-16 pb-16 gap-36'>
         
@@ -60,6 +58,7 @@ function Contact () {
                   i
                   className="fa-brands fa-x-twitter text-[#2E8B57]"
                 ></a>
+                
                 <a
                   href="https://www.linkedin.com/in/raymond-njagala-9a6309a8/"
                   target="_blank"

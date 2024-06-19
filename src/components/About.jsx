@@ -1,7 +1,6 @@
 import React from 'react'
 import { BackgroundImage, Center, Text, Box } from '@mantine/core';
 import { MantineProvider } from '@mantine/core';
-import { Image } from '@mantine/core';
 
 function About () {
   return (
@@ -78,24 +77,71 @@ function About () {
 </div>
 
 
+<div className='bg-[#FFFDD0]'>
+  
+  <h1 className='text-center pb-3 pt-3 text-3xl'>Our History</h1>
+  <p className='mx-auto max-w-[40%] text-center'>AgriHub was founded in 2024 by a group of passionate individuals dedicated to revolutionizing the agricultural industry. Over the years, we have achieved significant milestones, including developing cutting-edge logistics solutions and establishing strong partnerships with key stakeholders in the agricultural sector.</p>
+</div>
+
+<div className='bg-[#8FBC8F] pb-16'>
+  <h1 className='text-center pb-3 pt-3 text-3xl font-bold text-[#8B4513] '>Our Team</h1>
+  <p className='mx-auto max-w-[40%] text-center text-2xl pb-5 '>Our team at AgriHub is comprised of experts in agriculture, logistics, and technology. Meet some of our key members:</p>
+
+  
+  
+  <div className='flex gap-1 mx-auto max-w-[50%]  '>
+    
+    <div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg hover:border-blue-600 transition duration-300 ease-in-out shadow-md hover:shadow-xl'>
+      <img src="./src/assets/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4 '/>
+      <h1>Raymond Njagala</h1>
+      <p className='pb-4'>CEO</p>
+      
+      <button className='pb-4 text-gray-800'>View more</button>
+
+      <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
+
+      i className="fa-brands fa-linkedin"></a>
+      
+      
+      <p className=''></p>
+    </div>
+    
+    <div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg'>
+      <img src="./src/assets/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
+      <h1>Grace Kyomuhendo</h1>
+      <p className='pb-8'>Lead Agronomist</p>
+      
+      <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
+
+      i className="fa-brands fa-linkedin "></a>
+    </div>
+    
+    <div className='flex flex-col items-center border-2 w-64 h-96 border-[#8B4513] pt-2 rounded-lg'>
+      <img src="./src/assets/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
+      <h1>David Tumusiime</h1>
+      <p className='pb-8'>Soil Scientist</p>
+      
+      <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
+
+      i className="fa-brands fa-linkedin"></a>
+    </div>
+
+
+<div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg'>
+  <img src="./src/assets/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
+        <h1 className=''>Sarah Nakyobe</h1>
+      <p className='text-center pb-3'>Agri-Marketing Specialist</p>
+      
+      <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
+
+      i className="fa-brands fa-linkedin"></a>
+</div>
+  </div>
 
 
 
 
-
-
-<h1 className='text-center pb-3 pt-3 text-3xl'>Our History</h1>
-<p className='mx-auto max-w-[40%] text-center'>AgriHub was founded in 2024 by a group of passionate individuals dedicated to revolutionizing the agricultural industry. Over the years, we have achieved significant milestones, including developing cutting-edge logistics solutions and establishing strong partnerships with key stakeholders in the agricultural sector.</p>
-
-<h1 className='text-center pb-3 pt-3 text-3xl'>Our Team</h1>
-<p className='mx-auto max-w-[40%] text-center'>Our team at AgriHub is comprised of experts in agriculture, logistics, and technology. Meet some of our key members:</p>
-
-<p className='mx-auto max-w-[40%] text-center'>Jane Doe, CEO: With 15 years of experience in agricultural management, Jane leads our efforts in strategic planning and operations.</p>
-
-<p className='mx-auto max-w-[40%] text-center'>John Smith, CTO: A specialist in agricultural technology, John drives our innovation and tech development initiatives.</p>
-
-<p className='mx-auto max-w-[40%] text-center'>Mary Johnson, Head of Logistics: Mary brings her expertise in supply chain management to ensure efficient and reliable transportation solutions.
-</p>
+</div>
 
 <h1 className='text-center pb-3 pt-3 text-3xl'>What We Offer</h1>
 <p className='mx-auto max-w-[40%] text-center'>We provide a range of services and products designed to support farmers and enhance agricultural efficiency:</p>
@@ -122,3 +168,10 @@ function About () {
 }
 
 export default About;
+
+
+
+
+
+
+
