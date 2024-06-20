@@ -6,6 +6,13 @@ import { Image } from '@mantine/core';
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
+import BananaP from './BananaP';
+import BananaR from './BananaR';
+import Cows from './Cows';
+import Chicken from './Chicken';
+import Friesian from './Friesian';
+import Coffee from './Coffee';
+import Goats from './Goats';
 
 
 
@@ -44,13 +51,13 @@ function Home () {
                 // onMouseEnter={autoplay.current.stop}
                 // onMouseLeave={autoplay.current.reset}
               >
-                <Carousel.Slide><img src="https://images.pexels.com/photos/2063892/pexels-photo-2063892.jpeg?auto=compress&cs=tinysrgb&w=800" width={800} className='rounded-3xl'/></Carousel.Slide>
-                <Carousel.Slide><img src="https://media.istockphoto.com/id/154135061/photo/bananas-in-various-stages-of-ripeness-growing-on-a-tree.jpg?b=1&s=612x612&w=0&k=20&c=MGb1ooj_g4LXFNNAajwNIAUuFLR7SZi2l0m7PDmWv6s=" width={800} className='rounded-3xl'/></Carousel.Slide>
-                <Carousel.Slide><img src="https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=800" className='rounded-3xl'/></Carousel.Slide>
-                <Carousel.Slide><img src="https://cdn.pixabay.com/photo/2014/01/15/16/09/chicken-coop-245745_1280.jpg" width={800} className='rounded-3xl'/></Carousel.Slide>
-                <Carousel.Slide><img src="https://images.pexels.com/photos/2191432/pexels-photo-2191432.jpeg?auto=compress&cs=tinysrgb&w=800" width={800} className='rounded-3xl'/></Carousel.Slide>
-                <Carousel.Slide><img src="https://images.pexels.com/photos/14776857/pexels-photo-14776857.jpeg?auto=compress&cs=tinysrgb&w=800" width={800} className='rounded-3xl'/></Carousel.Slide>
-                <Carousel.Slide><img src="https://images.pexels.com/photos/11010645/pexels-photo-11010645.jpeg?auto=compress&cs=tinysrgb&w=800" width={800} className='rounded-3xl'/></Carousel.Slide>
+                <Carousel.Slide><BananaP/></Carousel.Slide>
+                <Carousel.Slide><BananaR/></Carousel.Slide>
+                <Carousel.Slide><Cows/></Carousel.Slide>
+                <Carousel.Slide><Chicken/></Carousel.Slide>
+                <Carousel.Slide><Friesian/></Carousel.Slide>
+                <Carousel.Slide><Coffee/></Carousel.Slide>
+                <Carousel.Slide><Goats/></Carousel.Slide>
               </Carousel>
         </div>
 
