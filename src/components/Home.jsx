@@ -14,9 +14,35 @@ import Friesian from "./Friesian";
 import Coffee from "./Coffee";
 import Goats from "./Goats";
 import ScrollingText from "./ScrollingText";
+import { useEffect } from 'react';
 
 function Home() {
   const autoplay = useRef(Autoplay({ delay: 2000, stopOnInteraction: false }));
+
+
+
+useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.scroll-up');
+      elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+          element.classList.add('translate-up');
+        } else {
+          element.classList.remove('translate-up');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+
 
   return (
     <div>
@@ -84,32 +110,32 @@ function Home() {
       </MantineProvider>
 
       <div className="bg-[#1E3D3B]">
-        <div className="mb-32 mx-auto max-w-[30%] text-white  mt-20">
+        <div className="mb-32 mx-auto max-w-[30%] text-white  mt-20 scroll-up">
           <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E] pt-8">THIS IS HOW WE DO IT</h1>
           <p className=" text-xl ">Welcome to AgriHub! We provide a robust platform that empowers farmers by connecting them with markets and valuable resources. Here's how we make a difference:</p>
         </div>
-        <div className="mx-auto max-w-[30%] mr-24 mb-32 text-white">
+        <div className="mx-auto max-w-[30%] mr-24 mb-32 text-white scroll-up">
           <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E]">MARKET ACCESS:</h1>
           <p className="text-xl">Market Directory: Our searchable directory connects farmers with buyers, processors, and distributors, ensuring seamless market access.</p>
           <p className="text-xl">Market Prices: Stay informed with live or regularly updated market prices for a variety of agricultural products.</p>
           <p className="text-xl">Success Stories: Get inspired by stories of farmers who have thrived using our platform.</p>
         </div>
-        <div className=" max-w-[40%] ml-24 mb-32 text-white">
+        <div className=" max-w-[40%] ml-24 mb-32 text-white scroll-up">
           <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E]">INFORMATION AND EDUCATION:</h1>
           <p className="text-xl">Resource Center: Access a wealth of articles, videos, and tutorials on best practices, pest management, crop selection, and more.</p>
           <p className="text-xl">Expert Q&A Forum: Connect with agricultural experts and experienced farmers to get answers to your pressing questions.</p>
           <p className="text-xl">Events & Webinars: Participate in online seminars and workshops on relevant agricultural topics to stay updated and informed.
         </p>
         </div>
-        <div className="mx-auto max-w-[30%] mb-32 mr-24 text-white">
+        <div className="mx-auto max-w-[30%] mb-32 mr-24 text-white scroll-up">
           <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E]">FINANCING AND INPUTS:</h1>
           <p className="text-xl">Financial Resources: Discover available loans, grants, and financial assistance programs tailored for farmers.</p>
           <p className="text-xl">Input Suppliers Directory: Find local or online suppliers of seeds, fertilizers, pesticides, and other essential agricultural inputs.</p>
         
         </div>
 
-        <ScrollingText/>
-        <div className="ml-24 mb-32 max-w-[40%] text-white">
+       
+        <div className="ml-24 mb-32 max-w-[40%] text-white scroll-up">
           <h1 className="text-center font-bold mb-4 text-3xl text-[#A2AC8E]">POST-HARVEST-MANAGEMENT:</h1>
           <p className="text-xl">Best Practices Guides: Learn the best practices for harvesting, storage, and transportation to minimize losses and ensure quality.
         </p>
@@ -117,7 +143,7 @@ function Home() {
         
         <p className="text-xl">Storage Partners: Access information about partnered cold storage facilities offering discounted storage options.</p>
         </div>
-        <div className="mx-auto max-w-[40%] text-white p-4 pb-8">
+        <div className="mx-auto max-w-[40%] text-white p-4 pb-8 scroll-up">
           <h1 className="text-center text-3xl font-bold mb-4 text-[#A2AC8E]">CLIMATE CHANGE ADAPTATION:</h1>
           <p className="text-xl">Climate-Smart Practices: Gain insights on adopting drought-resistant crops, efficient water management techniques, and sustainable land management practices.</p>
           <p className="text-xl">Climate Data & Analysis: Access weather data, climate projections, and localized forecasts to make informed decisions for your farming activities.

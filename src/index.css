@@ -50,3 +50,18 @@ ul {
 .animate-scrollText {
   animation: scrollText 10s linear infinite;
 }
+
+
+
+
+/* styles.css */
+.scroll-up {
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.translate-up {
+  transform: translateY(0);
+  opacity: 1;
+}
