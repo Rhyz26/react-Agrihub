@@ -18,7 +18,7 @@ function BananaR() {
         >
         <Center p="md">
           <Text c="white">
-            <h1 className='font-bold text-3xl pt-96'>RIPE BANANAS FOR SALE </h1>
+            <h1 className='bana font-bold text-3xl pt-96'>RIPE BANANAS FOR SALE </h1>
           </Text>
         </Center>
       </BackgroundImage>

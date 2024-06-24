@@ -19,7 +19,7 @@ function Goats() {
         >
         <Center p="md">
           <Text c="white">
-            <h1 className='font-bold text-3xl pt-96'>HEALTH GOATS </h1>
+            <h1 className='bana font-bold text-3xl pt-96'>HEALTH GOATS </h1>
           </Text>
         </Center>
       </BackgroundImage>
