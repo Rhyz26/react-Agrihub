@@ -41,6 +41,12 @@ useEffect(() => {
   }, []);
 
 
+// https://images.pexels.com/photos/5273080/pexels-photo-5273080.jpeg?auto=compress&cs=tinysrgb&w=800  market
+
+
+// https://images.pexels.com/photos/709567/pexels-photo-709567.jpeg?auto=compress&cs=tinysrgb&w=800 banana
+
+// https://i.pinimg.com/originals/6b/a5/eb/6ba5eb3a03a0f42cc78a884577c8c72c.jpg women in the market with foods 
 
 
   return (
@@ -48,7 +54,7 @@ useEffect(() => {
       <MantineProvider>
         <Box maw={1430} mx="auto">
           <BackgroundImage
-            src="https://images.pexels.com/photos/709567/pexels-photo-709567.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/5273080/pexels-photo-5273080.jpeg?auto=compress&cs=tinysrgb&w=800"
             radius="sm"
             h={700}
           >
@@ -115,11 +121,16 @@ useEffect(() => {
           <h1 className="title-1 text-center font-bold text-3xl mb-4 text-[#A2AC8E] pt-8">THIS IS HOW WE DO IT</h1>
           <p className="title-2 text-xl ">Welcome to AgriHub! We provide a robust platform that empowers farmers by connecting them with markets and valuable resources. Here's how we make a difference:</p>
         </div>
-        <div className="mx-auto max-w-[30%] mr-24 mb-32 text-white scroll-up">
-          <h1 className="title-3 text-center font-bold text-3xl mb-4 text-[#A2AC8E]">MARKET ACCESS:</h1>
-          <p className="title-4 text-xl ">Market Directory: Our searchable directory connects farmers with buyers, processors, and distributors, ensuring seamless market access.</p>
-          <p className="title-5 text-xl">Market Prices: Stay informed with live or regularly updated market prices for a variety of agricultural products.</p>
-          <p className="text-xl title-6">Success Stories: Get inspired by stories of farmers who have thrived using our platform.</p>
+        <div className="mx-auto max-w-[60%] mr-4 mb-32 text-white flex gap-5 scroll-up">
+          <img src="https://i.pinimg.com/originals/6b/a5/eb/6ba5eb3a03a0f42cc78a884577c8c72c.jpg" width={400} className="rounded-lg"/>
+          
+          <div className="flex flex-col">
+            <h1 className="title-3 text-center font-bold text-3xl mb-4 text-[#A2AC8E]">MARKET ACCESS:</h1>
+            <p className="title-4 text-xl ">Market Directory: Our searchable directory connects farmers with buyers, processors, and distributors, ensuring seamless market access.</p>
+            <p className="title-5 text-xl">Market Prices: Stay informed with live or regularly updated market prices for a variety of agricultural products.</p>
+            <p className="text-xl title-6">Success Stories: Get inspired by stories of farmers who have thrived using our platform.</p>
+          </div>
+
         </div>
         <div className=" max-w-[40%] ml-24 mb-32 text-white scroll-up">
           <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E] title-7">INFORMATION AND EDUCATION:</h1>
