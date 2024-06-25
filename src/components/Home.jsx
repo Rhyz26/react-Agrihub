@@ -76,7 +76,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="mb-12 ml-28 mx-auto max-w-[100%]">
+        <div className="mb-12 ml-28 mx-auto max-w-[100%] ">
           <Carousel
             withIndicators
             // height={400}
@@ -112,7 +112,7 @@ function Home() {
       {/* bg-[#1E3D3B] */}
 
       <div className="bg-[#1E3D3B]">
-        <div className="mb-32 mx-auto max-w-[30%] text-white  mt-20 scroll-up">
+        <div className="mb-40 mx-auto max-w-[40%] text-white  mt-20 scroll-up">
           <h1 className="title-1 text-center font-bold text-3xl mb-4 text-[#A2AC8E] pt-14">
             THIS IS HOW WE DO IT
           </h1>
@@ -123,7 +123,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="mx-auto max-w-[80%] mb-32 text-white flex gap-8 scroll-up">
+        <div className="mx-auto max-w-[80%] mb-40 text-white flex gap-8 scroll-up">
           <img
             src="https://i.pinimg.com/originals/6b/a5/eb/6ba5eb3a03a0f42cc78a884577c8c72c.jpg"
             width={400}
@@ -151,7 +151,7 @@ function Home() {
           </div>
         </div>
 
-        <div className=" mx-auto max-w-[80%] mb-32 text-white flex gap-8 scroll-up">
+        <div className=" mx-auto max-w-[80%] mb-40 text-white flex gap-8 scroll-up">
           <div className="flex  flex-col">
             <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E] title-7">
               INFORMATION AND EDUCATION:
@@ -178,7 +178,7 @@ function Home() {
           />
         </div>
 
-        <div className="mx-auto max-w-[80%] flex gap-8 mb-32 text-white scroll-up">
+        <div className="mx-auto max-w-[80%] flex gap-8 mb-40 text-white scroll-up">
           <img
             src="https://i0.wp.com/thebftonline.com/wp-content/uploads/2021/02/farm-1.jpg?fit=2000%2C1125&ssl=1"
             width={500}
@@ -202,7 +202,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="mb-32 mx-auto max-w-[80%] flex  text-white scroll-up">
+        <div className="mb-40 mx-auto max-w-[80%] flex  text-white scroll-up">
           <div className="flex flex-col">
             <h1 className="text-center font-bold mb-4 text-3xl text-[#A2AC8E] title-7">
               POST-HARVEST-MANAGEMENT:

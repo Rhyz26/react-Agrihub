@@ -120,3 +120,30 @@ ul {
   font-family: 'Poppins';
   font-weight: 800;
 }
+.footer{
+  font-family: 'Poppins';
+}
+/* .links{
+  text-decoration: underline wavy #ffdd57;
+} */
+
+
+.link {
+  color: white;
+  /* padding: 14px 20px; */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.link:hover {
+  color: #ffdd57;
+  /* Change the color on hover */
+  text-decoration: underline wavy #ffdd57;
+}
+
+.link:active {
+  color: #ffdd57;
+  /* Active item color */
+  text-decoration: underline wavy #ffdd57;
+}
