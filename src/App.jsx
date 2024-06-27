@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Privacy from "./components/Privacy";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/appointment" element={<Appointment />} />
+          <Route path="/privacy" element={<Privacy/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

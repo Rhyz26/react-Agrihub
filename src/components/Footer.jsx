@@ -1,17 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PointingArrow from './PointingArrow'
+import Underline from './Underline'
+import Privacy from './Privacy'
 
 function Footer ()  {
   return (
-    <div className='bg-[#A2AC8E] pt-12 pb-12'>
-      <div className='flex gap-14 mx-auto max-w-[80%] footer'>
+    <div className='bg-[#8FBC8F] pt-12 pb-12'>
+      <div className='flex gap-12 mx-auto max-w-[60%] footer'>
         <div className='flex flex-col'>
-          <h1 className='mb-4'><Link to="/">The AgriHub</Link></h1>
-          <p>Empowering Agriculture, One Connection at a Time</p>
-          <div className='links flex flex-col'>
-            <Link to="/about">About us</Link>
-            <Link to="/contact">Get in Touch</Link>
-            <Link to="/appointment">Appointment</Link>
+          <h1 className='mb-4'><Link to="/" className='underline-effect'><PointingArrow/>The AgriHub</Link></h1>
+          {/* <p>Empowering Agriculture, One Connection at a Time</p> */}
+          <div className='links flex flex-col '>
+            <Link to="/about" className='underline-effect'><PointingArrow/>About us</Link>
+            <Link to="/contact" className='underline-effect'><PointingArrow/>Get in Touch</Link>
+            <Link to="/appointment" className='underline-effect'><PointingArrow/>Appointment</Link>
+             <Link to="/privacy" className='underline-effect'><PointingArrow/>Privacy</Link>
+            
           </div>
         </div>
         <div className="flex flex-col">

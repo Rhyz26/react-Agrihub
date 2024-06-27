@@ -147,3 +147,37 @@ ul {
   /* Active item color */
   text-decoration: underline wavy #ffdd57;
 }
+
+
+.arrow::before {
+  content: '\2192';
+  /* Unicode for right arrow */
+  position: absolute;
+  left: -5rem;
+  /* Adjust this value based on your needs */
+  top: 153%;
+  transform: translateY(-10%);
+  font-size: 1.2em;
+  /* Adjust the size of the arrow */
+}
+
+
+.underline-effect {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-effect::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-effect:hover::after {
+  width: 100%;
+}
