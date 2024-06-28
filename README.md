@@ -1,24 +1,20 @@
 # AGRIHUB
 
-This is an Agricultural Website / project, I am developing an Agricultural project aimed at providing Agricultural resources to the people of Uganda
+This is an Agricultural Website / Project, I am developing an Agricultural project aimed at providing Agricultural resources to the people of Uganda
+
+# KEY FEATURES
+- Market Information, daily prices of the farm products, produce from the gardens
+- Weather Updates of the different areas so that farmers can get ready for the climatic changes
+- Financial benefits, to connect to the different financial support, available loans
+- Agricultural resources say information pertaining to farming, rearing
+- Farmers will be able to schedule an appointment with an agricultural expert, inorder to inquire about any agricultural problem, diseases and pests
 
 ## Tools Used
-- React js 
+- React JS 
 - Mantine UI Component Library
 - Tailwind CSS
 
-### Get Started
-Go ahead and clone this repository and create a feature branch off the develop branch 
-Naming of the branches should follow this convention 
-> feature/name
-
-example
-feature/sign-up-page
-
-Then go ahead to install dependencies using the command 
-npm install
-
 
 ### Deployment
-After changes are merged, the code in the main branch is deployed to vercel to create a deployment link for the project, The deployment link is [Agrihub](https://react-agrihub.vercel.app/)
+The deployment link is [Agrihub](https://react-agrihub.vercel.app/) or its also available at the top right of this repository
 
