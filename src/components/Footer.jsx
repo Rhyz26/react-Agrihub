@@ -5,16 +5,20 @@ import Underline from './Underline'
 import Privacy from './Privacy'
 
 function Footer ()  {
+  
+  
+  
   return (
-    <div className='bg-[#8FBC8F] pt-12 pb-12'>
-      <div className='flex gap-12 mx-auto max-w-[60%] footer'>
+    <div className='bg-[#8FBC8F] pt-12 pb-12 '>
+      <div className='flex gap-12 mx-auto max-w-[60%]  footer'>
         <div className='flex flex-col'>
-          <h1 className='mb-4'><Link to="/" className='underline-effect'><PointingArrow/>The AgriHub</Link></h1>
-          {/* <p>Empowering Agriculture, One Connection at a Time</p> */}
+          <h1 className='mb-4'><Link to="/" onClick={(e) => handleClick(e, 'home')}className='underline-effect'><PointingArrow/>The AgriHub</Link></h1>
+
           <div className='links flex flex-col '>
-            <Link to="/about" className='underline-effect'><PointingArrow/>About us</Link>
-            <Link to="/contact" className='underline-effect'><PointingArrow/>Get in Touch</Link>
-            <Link to="/appointment" className='underline-effect'><PointingArrow/>Appointment</Link>
+            <Link to="/about" onClick={(e) => handleClick(e, 'about')} className='underline-effect'><PointingArrow/>About us</Link>
+            <Link to="/contact" onClick={(e) => handleClick(e, 'contact')}className='underline-effect'><PointingArrow/>Get in Touch</Link>
+            <Link to="/appointment" onClick={(e) => handleClick(e, 'appointment')}className='underline-effect'><PointingArrow/>Appointment</Link>
+            
              <Link to="/privacy" className='underline-effect'><PointingArrow/>Privacy</Link>
             
           </div>

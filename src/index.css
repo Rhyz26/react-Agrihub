@@ -181,3 +181,16 @@ ul {
 .underline-effect:hover::after {
   width: 100%;
 }
+
+.appoint{
+  font-family: 'Poppins';
+ font-weight: 600;
+}
+
+.appoint-1{
+  font-family: 'Poppins';
+    font-weight: 400;
+}
+.text{
+  font-family: 'Poppins';
+}
