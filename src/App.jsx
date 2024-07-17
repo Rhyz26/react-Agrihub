@@ -11,6 +11,9 @@ import Footer from "./components/Footer";
 import Privacy from "./components/Privacy";
 
 function App() {
+
+  
+
   return (
     <>
       <BrowserRouter>
