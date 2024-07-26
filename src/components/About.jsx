@@ -92,7 +92,7 @@ function About () {
   <div className='flex gap-1 mx-auto max-w-[50%]  '>
     
     <div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg hover:border-blue-600 transition duration-300 ease-in-out shadow-md hover:shadow-xl'>
-      <img src="./public/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4 '/>
+      <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4 '/>
       <h1>Raymond Njagala</h1>
       <p className='pb-4'>CEO</p>
       
@@ -107,7 +107,7 @@ function About () {
     </div>
     
     <div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg'>
-      <img src="./public/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
+      <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
       <h1>Grace Kyomuhendo</h1>
       <p className='pb-8'>Lead Agronomist</p>
       
@@ -117,7 +117,7 @@ function About () {
     </div>
     
     <div className='flex flex-col items-center border-2 w-64 h-96 border-[#8B4513] pt-2 rounded-lg'>
-      <img src="./public/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
+      <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
       <h1>David Tumusiime</h1>
       <p className='pb-8'>Soil Scientist</p>
       
@@ -128,7 +128,7 @@ function About () {
 
 
 <div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg'>
-  <img src="./public/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
+  <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
         <h1 className=''>Sarah Nakyobe</h1>
       <p className='text-center pb-3'>Agri-Marketing Specialist</p>
       
