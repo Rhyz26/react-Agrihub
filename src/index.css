@@ -174,7 +174,7 @@ ul {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: green;
   /* background-color: rgb(235, 236, 240); */
   transition: width 0.3s ease-in-out;
 }

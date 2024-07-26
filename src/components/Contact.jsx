@@ -45,7 +45,7 @@ function Contact () {
       <h1 className='text-[#2E8B57] text-4xl font-bold mb-4'>Contact us at:</h1>
           <p className='font-bold text-[#2E8B57] pb-2'>Email:</p>
           <p>njagala.raymond@gmail.com</p>
-          <p className='font-bold text-[#8B4513] pb-2 pt-6'>Phone No:</p>
+          <p className='font-bold text-[#2E8B57] pb-2 pt-6'>Phone No:</p>
           <p>+256703897243 / +256782924108</p>
           <p className='font-bold text-[#2E8B57] pb-2 pt-6'>Address:</p>
           <p className='mb-4'>Makerere, Kampala</p>

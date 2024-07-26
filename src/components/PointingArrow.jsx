@@ -4,7 +4,7 @@ function PointingArrow() {
   return (
      <div className="flex justify-center items-center ">
       <p className="relative text-lg">
-         <span className="relative arrow"></span> 
+         <span className="relative arrow text-green-800 "></span> 
       </p>
     </div>
   )
