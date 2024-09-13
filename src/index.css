@@ -195,3 +195,26 @@ ul {
 .text{
   font-family: 'Poppins';
 }
+
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .media-1 {
+    display:flex;
+    flex-direction: column;
+    
+  }
+}
+
+
+
+
+
+
+/* Styles for larger devices */
+@media (min-width: 769px) {
+  .your-class {
+    font-size: 18px;
+    padding: 20px;
+  }
+}

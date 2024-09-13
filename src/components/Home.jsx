@@ -46,13 +46,15 @@ function Home() {
 
   return (
     <div>
+      <div className="media-1">
+
       <MantineProvider>
         <Box maw={1430} mx="auto">
           <BackgroundImage
             src="https://images.pexels.com/photos/5273080/pexels-photo-5273080.jpeg?auto=compress&cs=tinysrgb&w=800"
             radius="sm"
             h={700}
-          >
+            >
             <Center p="md">
               <Text c="white">
                 <h1 className="text-5xl font-bold pt-96 ">
@@ -83,7 +85,7 @@ function Home() {
             plugins={[autoplay.current]}
             // onMouseEnter={autoplay.current.stop}
             // onMouseLeave={autoplay.current.reset}
-          >
+            >
             <Carousel.Slide>
               <BananaP />
             </Carousel.Slide>
@@ -108,6 +110,7 @@ function Home() {
           </Carousel>
         </div>
       </MantineProvider>
+            </div>
 
       {/* bg-[#1E3D3B] */}
 
