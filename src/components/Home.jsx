@@ -45,10 +45,12 @@ function Home() {
   // https://i.pinimg.com/originals/6b/a5/eb/6ba5eb3a03a0f42cc78a884577c8c72c.jpg women in the market with foods
 
   return (
-    <div>
+    <div className="content">
       <div className="media-1">
 
       <MantineProvider>
+        <div className="media-back">
+
         <Box maw={1430} mx="auto">
           <BackgroundImage
             src="https://images.pexels.com/photos/5273080/pexels-photo-5273080.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -57,18 +59,25 @@ function Home() {
             >
             <Center p="md">
               <Text c="white">
-                <h1 className="text-5xl font-bold pt-96 ">
+
+                <div className="scrll">
+
+                <h1 className="scoll text-5xl font-bold pt-96 ">
                   <ScrollingText />
                 </h1>
+
+                </div>
+
               </Text>
             </Center>
           </BackgroundImage>
         </Box>
+              </div>
         <div className=" mb-8 bg-[#1E3D3B] pb-8 pt-8 text-white">
           <h1 className=" text-center mb-4 text-4xl font-bold text-[#A2AC8E] font-poppins">
             Empowering Farmers, Connecting Markets
           </h1>
-          <p className="red text-center text-2xl mx-auto max-w-[60%]">
+          <p className="text red text-center text-2xl mx-auto max-w-[60%]">
             At AgriHub, we are dedicated to providing a platform that connects
             farmers, their produce, and vendors to markets using efficient
             transportation. Our goal is to empower farmers with the resources,
@@ -78,7 +87,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="mb-12 ml-28 mx-auto max-w-[100%] ">
+        <div className="carousel mb-12 ml-28 mx-auto max-w-[100%] ">
           <Carousel
             withIndicators
             // height={400}

@@ -4,7 +4,7 @@ import { MantineProvider } from '@mantine/core';
 
 function BananaP () {
   return (
-    <div>
+    <div className='media-2' >
         <MantineProvider>
 
         <Box mx="auto">
