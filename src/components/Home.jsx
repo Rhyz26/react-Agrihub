@@ -73,7 +73,7 @@ function Home() {
           </BackgroundImage>
         </Box>
               </div>
-        <div className=" mb-8 bg-[#1E3D3B] pb-8 pt-8 text-white">
+        <div className=" mb-8 bg-[#1E3D3B] mx-auto max-w-[100%] pb-8 pt-8 text-white">
           <h1 className=" text-center mb-4 text-4xl font-bold text-[#A2AC8E] font-poppins">
             Empowering Farmers, Connecting Markets
           </h1>
@@ -124,7 +124,7 @@ function Home() {
       {/* bg-[#1E3D3B] */}
 
       <div className="bg-[#1E3D3B]">
-        <div className="mb-40 mx-auto max-w-[40%] text-white  mt-20 scroll-up">
+        <div className="intro-1 mb-40 mx-auto max-w-[40%] text-white  mt-20 scroll-up">
           <h1 className="title-1 text-center font-bold text-3xl mb-4 text-[#A2AC8E] pt-14">
             THIS IS HOW WE DO IT
           </h1>
