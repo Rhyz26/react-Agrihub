@@ -7,6 +7,8 @@ function Friesian() {
     <div>
 
          <MantineProvider>
+          <div className='media-2'>
+
 
         <Box mx="auto">
       <BackgroundImage
@@ -14,7 +16,7 @@ function Friesian() {
         radius="sm"
         w={800}
         h={500} 
-        className='rounded-3xl'
+        className='images-11 rounded-3xl'
 
         >
         <Center p="md">
@@ -24,6 +26,7 @@ function Friesian() {
         </Center>
       </BackgroundImage>
     </Box>
+          </div>
           </MantineProvider>
 
     </div>

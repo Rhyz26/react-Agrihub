@@ -6,6 +6,8 @@ function Cows() {
   return (
     <div>
          <MantineProvider>
+          <div className='media-2'>
+
 
         <Box mx="auto">
       <BackgroundImage
@@ -23,6 +25,7 @@ function Cows() {
         </Center>
       </BackgroundImage>
     </Box>
+          </div>
           </MantineProvider>
 
     </div>

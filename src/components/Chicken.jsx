@@ -7,6 +7,7 @@ function Chicken() {
   return (
     <div>
          <MantineProvider>
+<div className='media-2'>
 
         <Box mx="auto">
       <BackgroundImage
@@ -15,7 +16,7 @@ function Chicken() {
         w={800}
         h={500} 
         className='rounded-3xl'
-
+        
         >
         <Center p="md">
           <Text c="white">
@@ -24,6 +25,7 @@ function Chicken() {
         </Center>
       </BackgroundImage>
     </Box>
+          </div>
           </MantineProvider>
 
     </div>

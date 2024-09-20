@@ -6,6 +6,8 @@ function BananaR() {
   return (
     <div>
          <MantineProvider>
+          <div className="media-2">
+
 
         <Box mx="auto">
       <BackgroundImage
@@ -13,8 +15,8 @@ function BananaR() {
         radius="sm"
         w={800}
         h={500} 
-        className='rounded-3xl'
-
+        className='images-11 rounded-3xl'
+        
         >
         <Center p="md">
           <Text c="white">
@@ -23,6 +25,7 @@ function BananaR() {
         </Center>
       </BackgroundImage>
     </Box>
+          </div>
           </MantineProvider>
     </div>
   )

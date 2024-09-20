@@ -229,15 +229,22 @@ ul {
       font-size: 1rem;
     }
     .media-2{
-      width:400px;
+      width:800px;
+      /* border-radius: 2rem; */
+      /* height: 200px; */
     }
 
     .carousel{
-      
+      border-radius: 4rem;
       
     }
     .content{
       width:100%;
+    }
+    .images-11{
+      width:40px;
+      /* height:200px; */
+    
     }
 
 }
