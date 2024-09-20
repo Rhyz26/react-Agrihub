@@ -240,8 +240,8 @@ ul {
       
     }
     .content{
-      width:90%;
-      margin:0 auto;
+      width:90%; /*Ensure the container doesn't take the full width*/
+      margin:0 auto; /* Centers the container horizontally */
     }
     .images-11{
       width:40px;
@@ -250,6 +250,29 @@ ul {
     }
     .intro-1{
       width:100%
+    }
+    .market{
+      display:flex;
+      flex-direction: column-reverse;
+    }
+    .information{
+      display: flex;
+      flex-direction: column;
+    }
+    .financing{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .harvest{
+      display:flex;
+      flex-direction: column;
+    }
+    .climate{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:100%;
+      
     }
 
 }

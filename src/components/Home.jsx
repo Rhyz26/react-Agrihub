@@ -135,7 +135,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="mx-auto max-w-[80%] mb-40 text-white flex gap-8 scroll-up">
+        <div className="market mx-auto max-w-[80%] mb-40 text-white flex gap-8 scroll-up">
           <img
             src="https://i.pinimg.com/originals/6b/a5/eb/6ba5eb3a03a0f42cc78a884577c8c72c.jpg"
             width={400}
@@ -163,7 +163,7 @@ function Home() {
           </div>
         </div>
 
-        <div className=" mx-auto max-w-[80%] mb-40 text-white flex gap-8 scroll-up">
+        <div className="information mx-auto max-w-[80%] mb-40 text-white flex gap-8 scroll-up">
           <div className="flex  flex-col">
             <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E] title-7">
               INFORMATION AND EDUCATION:
@@ -190,7 +190,7 @@ function Home() {
           />
         </div>
 
-        <div className="mx-auto max-w-[80%] flex gap-8 mb-40 text-white scroll-up">
+        <div className="financing mx-auto max-w-[80%] flex gap-8 mb-40 text-white scroll-up">
           <img
             src="https://i0.wp.com/thebftonline.com/wp-content/uploads/2021/02/farm-1.jpg?fit=2000%2C1125&ssl=1"
             width={500}
@@ -198,7 +198,7 @@ function Home() {
              alt="Irrigating crops"
           />
 
-          <div className="flex flex-col">
+          <div className=" flex flex-col">
             <h1 className="text-center font-bold text-3xl mb-4 text-[#A2AC8E] title-7">
               FINANCING AND INPUTS:
             </h1>
@@ -214,7 +214,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="mb-40 mx-auto max-w-[80%] flex  text-white scroll-up">
+        <div className="harvest mb-40 mx-auto max-w-[80%] flex  text-white scroll-up">
           <div className="flex flex-col">
             <h1 className="text-center font-bold mb-4 text-3xl text-[#A2AC8E] title-7">
               POST-HARVEST-MANAGEMENT:
@@ -242,7 +242,7 @@ function Home() {
           />
         </div>
 
-        <div className="mx-auto max-w-[40%] flex flex-col gap-8 text-white p-4 pb-10 scroll-up">
+        <div className="climate mx-auto max-w-[40%] flex flex-col gap-8 text-white p-4 pb-10 scroll-up">
           <div className="flex flex-col">
             <h1 className="text-center text-3xl font-bold text-[#A2AC8E] mb-4 title-7">
               CLIMATE CHANGE ADAPTATION:
