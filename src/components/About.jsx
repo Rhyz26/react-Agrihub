@@ -1,6 +1,7 @@
 import React from 'react'
 import { BackgroundImage, Center, Text, Box } from '@mantine/core';
 import { MantineProvider } from '@mantine/core';
+import Persona from './Persona';
 
 function About () {
   return (
@@ -94,9 +95,10 @@ function About () {
     <div className='flex flex-col items-center border-2 border-[#8B4513] w-64 h-96 pt-2 rounded-lg hover:border-blue-600 transition duration-300 ease-in-out shadow-md hover:shadow-xl'>
       <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4 '/>
       <h1>Raymond Njagala</h1>
-      <p className='pb-4'>CEO</p>
+      <p className='pb-8'>CEO</p>
       
-      <button className='pb-4 text-gray-800'>View more</button>
+      <button className='pb-12 text-gray-800'><Persona/></button>
+      
 
       <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
 
@@ -110,6 +112,7 @@ function About () {
       <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
       <h1>Grace Kyomuhendo</h1>
       <p className='pb-8'>Lead Agronomist</p>
+      <button className='pb-4 text-gray-800'><Persona/></button>
       
       <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
 
@@ -120,6 +123,7 @@ function About () {
       <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
       <h1>David Tumusiime</h1>
       <p className='pb-8'>Soil Scientist</p>
+      <button className='pb-4 text-gray-800'><Persona/></button>
       
       <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
 
@@ -131,7 +135,7 @@ function About () {
   <img src="/ray11.jpg" width={80} className='rounded-full border-2 border-[#8B4513] mb-4'/>
         <h1 className=''>Sarah Nakyobe</h1>
       <p className='text-center pb-3'>Agri-Marketing Specialist</p>
-      
+      <button className='pb-4 text-gray-800'><Persona/></button>
       <a href='https://www.linkedin.com/in/raymond-njagala-9a6309a8' target="_blank"
 
       i className="fa-brands fa-linkedin"></a>
